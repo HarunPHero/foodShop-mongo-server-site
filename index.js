@@ -101,7 +101,7 @@ app.get("/orders",verifyJWT, async(req,res)=>{
 }
 run().catch(console.dir);
 app.get("/", (req, res) => {
-  res.send("Hello from my food-shop!");
+  res.send("Hello from my foodshop!");
 });
 
 app.listen(port, () => {
